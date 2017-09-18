@@ -90,7 +90,7 @@ function plugin(options) {
     async.mapValues(files, process, err => {
       if (err) throw err;
 
-      console.log('tree', JSON.stringify(tree, true, 2));
+      debug('tree', JSON.stringify(tree, true, 2));
 
       const dictionary = Object.keys(tree).reduce(function(acc, val) {
         const merge = Object.keys(tree[val].dictionary).reduce(
