@@ -2,7 +2,7 @@
   "name": "metalsmith-markdown-taxonomy",
   "description": "A metalsmith plugin to transform markdown into taxonomy structures",
   "repository": "git://github.com/contentascode/metalsmith-markdown-taxonomy.git",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
