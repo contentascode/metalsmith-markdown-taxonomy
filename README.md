@@ -28,12 +28,12 @@ A file matching the `pattern` such as `categories/colors.md` containing:
 
 ## Red
 
-  * :[](truck.md)
+  * [](truck.md)
 
 ## Green
 
-  * :[](apple.md)
-  * :[](apple.md)
+  * [](apple.md)
+  * [](apple.md)
 ```
 
 Will add a `color` tag for files that are in the bullet lists i.e. `{ "colors": "Red" }` will be merged in the `truck.md` file's metadata.
